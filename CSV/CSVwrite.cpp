@@ -301,8 +301,8 @@ bool CSVwrite::WriteField( const string &field, bool terminate /* = false */ )
     }
 
     // All fields are qualified with double quotes since that is what libcsv write functions do
-    prepend.push_back( '"' );
-    append.push_front( '"' );
+//    prepend.push_back( '"' );
+//    append.push_front( '"' );
 
     // This is set when there is a quote that needs to be escaped but there's no room in the buffer
     bool quote = false;
