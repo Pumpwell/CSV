@@ -428,7 +428,7 @@ private:
     // The back element is always used for the pending record. The size of the cache should never
     // be less than 1.
     // To clear this list call ResetCache(), which starts a new list with an empty back element.
-    std::list<std::vector<std::string>> _cache;
+    std::list<std::vector<std::string> > _cache;
 
     // Call this to reset _cache.
     // The new list starts with one empty vector as the pending record.
